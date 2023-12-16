@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+#header-menu {
+  @apply flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700;
+}
+
+#header-menu a {
+  @apply block py-2 pl-3 pr-4 text-black rounded lg:bg-transparent lg:text-black lg:p-0 lg:dark:text-blue-500;
+}
+
+.widget_media_image {
+  @apply lg:w-full w-[70%] md:w-1/2 mr-3;
+}
+
+.button_send_email {
+  @apply text-white bg-blue-700 mt-5 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+.custom-input input {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}
+.wpcf7-not-valid-tip {
+  @apply text-[12px];
+}
+.top-form {
+  @apply grid gap-6 mb-6 md:grid-cols-2;
+}
+#main-menu  {
+  @apply flex justify-between w-[100%];
+}
+.menu-item-62{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+.menu-item-63{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+.menu-item-64{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+.menu-item-65{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+.menu-item-66{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+.menu-item-67{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+.menu-item-68{
+  @apply pl-[30px] hover:text-[#EA3838]
+}
+
+#hiddenDiv #main-menu {
+  @apply flex-col
+}
+
+.owl-item {
+  @apply h-[-webkit-fill-available]
+}
+
+
+.menu-item-71  {
+  @apply text-[#9D9D9D] pb-[7px] hover:text-[#EA3838] 
+}
+.menu-item-72  {
+  @apply text-[#9D9D9D] pb-[7px] hover:text-[#EA3838] 
+}
+.menu-item-73  {
+  @apply text-[#9D9D9D] pb-[7px] hover:text-[#EA3838] 
+}
+.menu-item-74  {
+  @apply text-[#9D9D9D] pb-[7px] hover:text-[#EA3838] 
+}
+.menu-item-75  {
+  @apply text-[#9D9D9D] pb-[7px] hover:text-[#EA3838] 
+}
+
+
+.widget_media_image{
+  @apply max-w-[100px]
+}
+
+#media_image-3{
+  @apply max-w-[140px]
+}
