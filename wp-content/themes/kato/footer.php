@@ -26,52 +26,19 @@
                         <div>
                             <a href="">
                                 <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">About us</p>
+                                    
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">
+                                    
+                                        <?php
+                                            wp_nav_menu( array(
+                                                'theme_location' => 'footer-menu',
+                                                'menu_id'        => 'footer-menu',
+                                            ) );
+                                        ?>
+                                    </p>
                                 </div>
                             </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Services</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Advantages</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Testimonials</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Inquiries</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Inquiries</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Support</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="text-[#ebebeb] flex mb-[7px]">
-                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
-                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Contact us</p>
-                                </div>
-                            </a>
+
                         </div>
                     </div>
                     <div class="mb-[30px] px-[15px] pt-[100px] max-[992px]:pt-[50px]">

@@ -11,77 +11,42 @@
                         <p class="text-[14px] leading-[25px]">The Love Boat promises something for everyone now to beat
                             every of just one</p>
                     </div>
-                    <div
-                        class=" grid grid-cols-3 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 mx-auto max-w-[1200px] w-[100%]">
-                        <div class="px-[15px] max-lg:pb-[30px]">
-                            <img class="mx-auto w-[100%]"
-                                src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/adventure-1.jpg"
-                                alt="">
-                            <div class="flex">
-                                <div>
-                                    <i
-                                        class="fa-solid fa-headphones text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
-                                </div>
-                                <div class="pl-[20px] pt-[20px]">
-                                    <h3
-                                        class="text-[18px] max-lg:text-[16px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">
-                                        24/7
-                                        CONSTANT SUPPORT</h3>
-                                    <p class="text-[15px] max-lg:text-[14px] text-[#c0c0c0]">The Love Boat promises
-                                        something for the beat
-                                        every of just one drum.</p>
+                    <div class=" grid grid-cols-3 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 mx-auto max-w-[1200px] w-[100%]">
+                        <?php
+                            $customPostType = new WP_Query(array(
+                                'posts_per_page' => 9,
+                                'post_type' => 'advantages'
+                            ));
+                            while($customPostType -> have_posts()) {
+                                $customPostType-> the_post();
+                        ?>
+                            <div class="px-[15px] max-lg:pb-[30px]">
+                                <img class="mx-auto w-[100%]"
+                                    src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/adventure-1.jpg"
+                                    alt="">
+                                <div class="flex">
+                                    <div>
+                                        <i class="fa-solid fa-headphones text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
+                                    </div>
+                                    <div class="pl-[20px] pt-[20px]">
+                                        <h3 class="text-[18px] max-lg:text-[16px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">
+                                            <?php the_title(); ?>
+                                        </h3>
+                                        <p class="text-[13px] max-lg:text-[14px] text-[#c0c0c0]">
+                                            <?php the_excerpt(); ?>
+                                        </p>
 
-                                    <button
-                                        class="text-[14px] font-bold text-[#ffffff] hover:text-[#ffd105] mt-[17px] ">
-                                        READ MORE
-                                        <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
-                                    </button>
+                                        <button
+                                            class="text-[14px] font-bold text-[#ffffff] hover:text-[#ffd105] mt-[17px] ">
+                                            READ MORE
+                                            <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="px-[15px] max-lg:pb-[30px]">
-                            <img class="mx-auto w-[100%]"
-                                src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/adventure-2.jpg"
-                                alt="">
-                            <div class="flex">
-                                <div>
-                                    <i
-                                        class="fa-regular fa-star text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
-                                </div>
-                                <div class="pl-[20px] pt-[20px]">
-                                    <h3 class="text-[18px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">BEST
-                                        PROFESSIONAL</h3>
-                                    <p class="text-[15px] text-[#c0c0c0]">The Love Boat promises something for the beat
-                                        every of just one drum.</p>
-                                    <button class="text-[14px] font-bold text-[#ffffff] mt-[17px] hover:text-[#ffd105]">
-                                        READ MORE
-                                        <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="px-[15px] max-lg:pb-[30px]">
-                            <img class="mx-auto w-[100%]"
-                                src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/adventure-3.jpg"
-                                alt="">
-                            <div class="flex">
-                                <div>
-                                    <i
-                                        class="fa-solid fa-xmark text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
-                                </div>
-                                <div class="pl-[20px] pt-[20px]">
-                                    <h3 class="text-[18px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">
-                                        ALWAYS HONEST</h3>
-                                    <p class="text-[15px] text-[#c0c0c0]">The Love Boat promises something for the beat
-                                        every of just one drum.</p>
-
-                                    <button class="text-[14px] font-bold text-[#ffffff] mt-[17px] hover:text-[#ffd105]">
-                                        READ MORE
-                                        <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        <?php
+                            }
+                        ?>
                     </div>
                 </div>
             </div>

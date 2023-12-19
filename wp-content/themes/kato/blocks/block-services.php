@@ -9,75 +9,46 @@
             <div class="grid grid-cols-3 max-lg:grid-cols-2 max-lg:grid-rows-2 max-md:grid-cols-1 max-md:grid-rows-3 relative bg-cover bg-center bg-no-repeat h-auto w-[100%] "
                 style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/dotted-map.png');">
                 <div class="px-[15px] max-lg:order-1">
-                    <div class="max-md:hidden">
-                        <div class="flex pb-[70px]">
-                            <div class="text-right pr-[30px]">
-                                <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SECURITY
-                                    CONSULTING</h3>
-                                <p class=" text-[14px] text-[#777777]">The Love Boat promises something for every the
-                                    beat
-                                    of just one drum.</p>
-                            </div>
-                            <div class="my-auto ">
-                                <i
-                                    class="hover:bg-[#ffd105] fa-solid fa-shield text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
-                            </div>
-                        </div>
-                        <div class="flex pb-[70px]">
-                            <div class="text-right pr-[30px]">
-                                <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SECURITY
-                                    CONSULTING</h3>
-                                <p class=" text-[14px] text-[#777777]">The Love Boat promises something for every the
-                                    beat
-                                    of just one drum.</p>
-                            </div>
-                            <div class="my-auto ">
-                                <i
-                                    class="hover:bg-[#ffd105] fa-solid fa-mobile-screen-button text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                    <?php
+                        $customPostType = new WP_Query(array(
+                            'posts_per_page' => 9,
+                            'post_type' => 'service_feft'
+                        ));
+                        while($customPostType -> have_posts()) {
+                            $customPostType-> the_post();
+                    ?>
+                        <div class="max-md:hidden">
+                            <div class="flex pb-[70px]">
+                                <div class="text-right pr-[30px]">
+                                    <h3 class="text-[16px] leading-[24px] font-bold text-[#222222] mb-[10px]">
+                                        <?php the_title(); ?>
+                                    </h3>
+                                    <p class=" text-[13px] text-[#777777]">
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
+                                <div class="my-auto ">
+                                    <i
+                                        class="hover:bg-[#ffd105] fa-solid fa-shield text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="flex pb-[70px]">
-                            <div class="text-right pr-[30px]">
-                                <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">PRIVATE
-                                    SECURITY
-                                </h3>
-                                <p class=" text-[14px] text-[#777777]">The Love Boat promises something for every the
-                                    beat
-                                    of just one drum.</p>
-                            </div>
-                            <div class="my-auto ">
-                                <i
-                                    class="hover:bg-[#ffd105] fa-solid fa-lock text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:hidden flex flex-col justify-center items-center">
-                        <div class="pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
-                            <div class="mt-[35px]">
-                                <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
-                                <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
-                                    of just one drum.</p>
+                        <div class="md:hidden flex flex-col justify-center items-center">
+                            <div class="pb-8 text-center">
+                                <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                                <div class="mt-[35px]">
+                                    <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">
+                                        <?php the_title(); ?>
+                                    </h3>
+                                    <p class="text-base text-[#777777]">
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] fa-solid fa-lock text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
-                            <div class="mt-[35px]">
-                                <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">PRIVATE SECURITY</h3>
-                                <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
-                                    of just one drum.</p>
-                            </div>
-                        </div>
-                        <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] fa-solid fa-mobile-screen-button text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
-                            <div class="mt-[35px]">
-                                <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
-                                <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
-                                    of just one drum.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <?php
+                        }
+                    ?>
                 </div>
                 <div class="px-[15px] max-lg:col-span-2 max-md:col-span-1 max-lg:order-3 max-lg:mx-auto">
                     <img class="max-h-[578px]"
@@ -85,77 +56,47 @@
                         alt="">
                 </div>
                 <div class="px-[15px] max-lg:order-2">
-                    <div class="max-md:hidden">
-                        <div class="flex pb-[70px]">
-                            <div class="my-auto ">
-                                <i
-                                    class="hover:bg-[#ffd105] fa-regular fa-user text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
-                            </div>
-                            <div class="text-left pl-[30px]">
-                                <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SECURITY
-                                    CONSULTING</h3>
-                                <p class=" text-[14px] text-[#777777]">The Love Boat promises something for every the
-                                    beat
-                                    of just one drum.</p>
-                            </div>
+                    <?php
+                        $customPostType = new WP_Query(array(
+                            'posts_per_page' => 9,
+                            'post_type' => 'service_right'
+                        ));
+                        while($customPostType -> have_posts()) {
+                            $customPostType-> the_post();
+                    ?>
+                        <div class="max-md:hidden">
+                            <div class="flex pb-[70px]">
+                                <div class="my-auto ">
+                                    <i
+                                        class="hover:bg-[#ffd105] fa-regular fa-user text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                </div>
+                                <div class="text-left pl-[30px]">
+                                    <h3 class="text-[16px] leading-[24px] font-bold text-[#222222] mb-[10px]">
+                                        <?php the_title(); ?>
+                                    </h3>
+                                    <p class=" text-[13px] text-[#777777]">
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
 
-                        </div>
-                        <div class="flex pb-[70px]">
-                            <div class="my-auto ">
-                                <i class="hover:bg-[#ffd105] fa-solid fa-eye text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
-                            </div>
-                            <div class="text-left pl-[30px]">
-                                <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SECURITY
-                                    CONSULTING</h3>
-                                <p class=" text-[14px] text-[#777777]">The Love Boat promises something for every the
-                                    beat
-                                    of just one drum.</p>
-                            </div>
-
-                        </div>
-                        <div class="flex pb-[70px]">
-                            <div class="my-auto ">
-                                <i
-                                    class="hover:bg-[#ffd105] fa-regular fa-folder text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
-                            </div>
-                            <div class="text-left pl-[30px]">
-                                <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">PRIVATE
-                                    SECURITY
-                                </h3>
-                                <p class=" text-[14px] text-[#777777]">The Love Boat promises something for every the
-                                    beat
-                                    of just one drum.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="md:hidden flex flex-col justify-center items-center">
-                        <div class="pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
-                            <div class="mt-[35px]">
-                                <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
-                                <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
-                                    of just one drum.</p>
                             </div>
                         </div>
-                        <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] fa-solid fa-lock text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
-                            <div class="mt-[35px]">
-                                <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">PRIVATE SECURITY</h3>
-                                <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
-                                    of just one drum.</p>
+                        <div class="md:hidden flex flex-col justify-center items-center">
+                            <div class="pb-8 text-center">
+                                <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                                <div class="mt-[35px]">
+                                    <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">
+                                        <?php the_title(); ?>
+                                    </h3>
+                                    <p class="text-base text-[#777777]">
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] fa-solid fa-mobile-screen-button text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
-                            <div class="mt-[35px]">
-                                <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
-                                <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
-                                    of just one drum.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <?php
+                        }
+                    ?>
                 </div>
             </div>
 

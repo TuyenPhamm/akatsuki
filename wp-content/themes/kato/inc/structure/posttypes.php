@@ -85,62 +85,147 @@ function kato_register_cpt_testimonial() {
 add_action( 'init', 'kato_register_cpt_testimonial' );
 
 
-function kato_service() {
+function kato_service_feft() {
     $args = array(
         'public' => true,
-        'query_var' => 'service',
+        'query_var' => 'service_feft',
         'rewrite' => array(
-            'slug' => 'services',
+            'slug' => 'service_feft',
             'with_front' => false
         ),
         'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
         'menu_position' => 21,
         'labels' => array(
-            'name' => 'services',
-            'singular_name' => 'service',
-            'add_new' => 'Add New service',
-            'add_new_item' => 'Add New service',
-            'edit_item' => 'Edit service',
-            'new_item' => 'New service',
-            'view_item' => 'View service',
-            'search_items' => 'Search services',
-            'not_found' => 'No services found',
-            'not_found_in_trash' => 'No services found in Trash',
+            'name' => 'Service_left',
+            'singular_name' => 'service_feft',
+            'add_new' => 'Add New service_feft',
+            'add_new_item' => 'Add New service_feft',
+            'edit_item' => 'Edit service_feft',
+            'new_item' => 'New service_feft',
+            'view_item' => 'View service_feft',
+            'search_items' => 'Search service_fefts',
+            'not_found' => 'No service_fefts found',
+            'not_found_in_trash' => 'No service_fefts found in Trash',
         ),
     );
 
-    register_post_type('service', $args);
+    register_post_type('service_feft', $args);
 }
-add_action( 'init', 'kato_service' );
+add_action( 'init', 'kato_service_feft' );
 
-
-function kato_field() {
+function kato_service_right() {
     $args = array(
         'public' => true,
-        'query_var' => 'field',
+        'query_var' => 'service_right',
         'rewrite' => array(
-            'slug' => 'fields',
+            'slug' => 'service_right',
             'with_front' => false
         ),
         'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
         'menu_position' => 21,
         'labels' => array(
-            'name' => 'Field',
-            'singular_name' => 'field',
-            'add_new' => 'Add New field',
-            'add_new_item' => 'Add New field',
-            'edit_item' => 'Edit field',
-            'new_item' => 'New field',
-            'view_item' => 'View field',
-            'search_items' => 'Search fields',
-            'not_found' => 'No fields found',
-            'not_found_in_trash' => 'No fields found in Trash',
+            'name' => 'Service_right',
+            'singular_name' => 'service_right',
+            'add_new' => 'Add New service_right',
+            'add_new_item' => 'Add New service_right',
+            'edit_item' => 'Edit service_right',
+            'new_item' => 'New service_right',
+            'view_item' => 'View service_right',
+            'search_items' => 'Search service_right',
+            'not_found' => 'No service_rights found',
+            'not_found_in_trash' => 'No service_right found in Trash',
         ),
     );
 
-    register_post_type('field', $args);
+    register_post_type('service_right', $args);
 }
-add_action( 'init', 'kato_field' );
+add_action( 'init', 'kato_service_right' );
+
+function kato_advantages() {
+    $args = array(
+        'public' => true,
+        'query_var' => 'advantages',
+        'rewrite' => array(
+            'slug' => 'advantagess',
+            'with_front' => false
+        ),
+        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'menu_position' => 21,
+        'labels' => array(
+            'name' => 'Advantages',
+            'singular_name' => 'advantages',
+            'add_new' => 'Add New advantages',
+            'add_new_item' => 'Add New advantages',
+            'edit_item' => 'Edit advantages',
+            'new_item' => 'New advantages',
+            'view_item' => 'View advantages',
+            'search_items' => 'Search advantagess',
+            'not_found' => 'No advantagess found',
+            'not_found_in_trash' => 'No advantagess found in Trash',
+        ),
+    );
+
+    register_post_type('advantages', $args);
+}
+add_action( 'init', 'kato_advantages' );
+
+
+function kato_new() {
+    $args = array(
+        'public' => true,
+        'query_var' => 'new',
+        'rewrite' => array(
+            'slug' => 'news',
+            'with_front' => false
+        ),
+        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'menu_position' => 21,
+        'labels' => array(
+            'name' => 'New',
+            'singular_name' => 'new',
+            'add_new' => 'Add New new',
+            'add_new_item' => 'Add New new',
+            'edit_item' => 'Edit new',
+            'new_item' => 'New new',
+            'view_item' => 'View new',
+            'search_items' => 'Search news',
+            'not_found' => 'No news found',
+            'not_found_in_trash' => 'No news found in Trash',
+        ),
+    );
+
+    register_post_type('new', $args);
+}
+add_action( 'init', 'kato_new' );
+
+
+function kato_guard() {
+    $args = array(
+        'public' => true,
+        'query_var' => 'guard',
+        'rewrite' => array(
+            'slug' => 'guards',
+            'with_front' => false
+        ),
+        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'menu_position' => 21,
+        'labels' => array(
+            'name' => 'Guard',
+            'singular_name' => 'guard',
+            'add_new' => 'Add New guard',
+            'add_new_item' => 'Add New guard',
+            'edit_item' => 'Edit guard',
+            'new_item' => 'New guard',
+            'view_item' => 'View guard',
+            'search_items' => 'Search guards',
+            'not_found' => 'No guards found',
+            'not_found_in_trash' => 'No guards found in Trash',
+        ),
+    );
+
+    register_post_type('guard', $args);
+}
+add_action( 'init', 'kato_guard' );
 
 
 function kato_register_cpt_banner() {
