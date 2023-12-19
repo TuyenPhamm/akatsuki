@@ -7,7 +7,7 @@
                 <div class="mt-[42px] max-md:hidden">
                     <div class="flex pb-[45px]">
                         <div class="my-auto ">
-                            <i class="ti-crown text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
+                            <i class="fa-solid fa-crown text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
                         </div>
                         <div class="text-left pl-[30px]">
                             <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">25 YEARS OF
@@ -20,7 +20,7 @@
                     <div class="flex pb-[45px]">
                         <div class="my-auto ">
                             <i
-                                class="ti-light-bulb text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
+                                class="fa-regular fa-lightbulb text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
                         </div>
                         <div class="text-left pl-[30px]">
                             <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SELF MOTIVATED
@@ -32,7 +32,7 @@
                     </div>
                     <div class="flex pb-[45px]">
                         <div class="my-auto ">
-                            <i class="ti-anchor text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
+                            <i class="fa-solid fa-anchor text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
                         </div>
                         <div class="text-left pl-[30px]">
                             <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">LATEST SECURITY
@@ -46,7 +46,7 @@
 
                 <div class="md:hidden max-md:pt-[80px] flex flex-col justify-center items-center">
                     <div class="pb-8 text-center">
-                        <i class="hover:bg-[#ffd105] ti-crown text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                        <i class="hover:bg-[#ffd105] fa-solid fa-crown text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                         <div class="mt-[35px]">
                             <h3 class="text-2xl max-md:text-[20px] leading-6 font-bold text-[#222222] mb-2">25 YEARS OF
                                 EXPERIENCES</h3>
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class=" pb-8 text-center">
-                        <i class="hover:bg-[#ffd105] ti-light-bulb text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                        <i class="hover:bg-[#ffd105] fa-regular fa-lightbulb text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                         <div class="mt-[35px]">
                             <h3 class="text-2xl max-md:text-[20px] leading-6 font-bold text-[#222222] mb-2">SELF
                                 MOTIVATED
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class=" pb-8 text-center">
-                        <i class="hover:bg-[#ffd105] ti-anchor text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                        <i class="hover:bg-[#ffd105] fa-solid fa-anchor text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                         <div class="mt-[35px]">
                             <h3 class="text-2xl max-md:text-[20px] leading-6 font-bold text-[#222222] mb-2">LATEST
                                 SECURITY

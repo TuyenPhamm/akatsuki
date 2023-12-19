@@ -20,7 +20,7 @@
                             </div>
                             <div class="my-auto ">
                                 <i
-                                    class="hover:bg-[#ffd105] ti-shield text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                    class="hover:bg-[#ffd105] fa-solid fa-shield text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
                             </div>
                         </div>
                         <div class="flex pb-[70px]">
@@ -33,7 +33,7 @@
                             </div>
                             <div class="my-auto ">
                                 <i
-                                    class="hover:bg-[#ffd105] ti-mobile text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                    class="hover:bg-[#ffd105] fa-solid fa-mobile-screen-button text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
                             </div>
                         </div>
                         <div class="flex pb-[70px]">
@@ -47,13 +47,13 @@
                             </div>
                             <div class="my-auto ">
                                 <i
-                                    class="hover:bg-[#ffd105] ti-lock text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                    class="hover:bg-[#ffd105] fa-solid fa-lock text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
                             </div>
                         </div>
                     </div>
                     <div class="md:hidden flex flex-col justify-center items-center">
                         <div class="pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] ti-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                            <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                             <div class="mt-[35px]">
                                 <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
                                 <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] ti-lock text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                            <i class="hover:bg-[#ffd105] fa-solid fa-lock text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                             <div class="mt-[35px]">
                                 <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">PRIVATE SECURITY</h3>
                                 <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] ti-mobile text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                            <i class="hover:bg-[#ffd105] fa-solid fa-mobile-screen-button text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                             <div class="mt-[35px]">
                                 <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
                                 <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
@@ -89,7 +89,7 @@
                         <div class="flex pb-[70px]">
                             <div class="my-auto ">
                                 <i
-                                    class="hover:bg-[#ffd105] ti-user text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                    class="hover:bg-[#ffd105] fa-regular fa-user text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
                             </div>
                             <div class="text-left pl-[30px]">
                                 <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SECURITY
@@ -102,7 +102,7 @@
                         </div>
                         <div class="flex pb-[70px]">
                             <div class="my-auto ">
-                                <i class="hover:bg-[#ffd105] ti-eye text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                <i class="hover:bg-[#ffd105] fa-solid fa-eye text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
                             </div>
                             <div class="text-left pl-[30px]">
                                 <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">SECURITY
@@ -116,7 +116,7 @@
                         <div class="flex pb-[70px]">
                             <div class="my-auto ">
                                 <i
-                                    class="hover:bg-[#ffd105] ti-folder text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
+                                    class="hover:bg-[#ffd105] fa-regular fa-folder text-[20px] p-[20px] border-2 border-[#ffd105]"></i>
                             </div>
                             <div class="text-left pl-[30px]">
                                 <h3 class="text-[18px] leading-[24px] font-bold text-[#222222] mb-[10px]">PRIVATE
@@ -131,7 +131,7 @@
                     </div>
                     <div class="md:hidden flex flex-col justify-center items-center">
                         <div class="pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] ti-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                            <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                             <div class="mt-[35px]">
                                 <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
                                 <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] ti-lock text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                            <i class="hover:bg-[#ffd105] fa-solid fa-lock text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                             <div class="mt-[35px]">
                                 <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">PRIVATE SECURITY</h3>
                                 <p class="text-base text-[#777777]">The Love Boat promises something for every the beat
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                         <div class=" pb-8 text-center">
-                            <i class="hover:bg-[#ffd105] ti-mobile text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                            <i class="hover:bg-[#ffd105] fa-solid fa-mobile-screen-button text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                             <div class="mt-[35px]">
                                 <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">SECURITY CONSULTING</h3>
                                 <p class="text-base text-[#777777]">The Love Boat promises something for every the beat

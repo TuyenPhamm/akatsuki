@@ -8,7 +8,7 @@
                     <div class="w-[1200px] mx-auto flex justify-between px-[20px] max-md:flex-wrap max-sm:hidden">
                         <div class="flex">
                             <div class="w-[100px] border-r-[1px]   border-[#777777]">
-                                <i class=" ti-notepad text-[#ffd105] text-[60px]"></i>
+                                <i class=" fa-regular fa-clipboard text-[#ffd105] text-[60px]"></i>
                             </div>
                             <div class="pl-[50px] text-[#ffffff]">
                                 <h2 class="text-[20px] font-bold ">GET FREE CONSULTATION (OR) CALL US: +1-234-678-8900
@@ -32,7 +32,7 @@
                     <div class="w-[1200px] mx-auto flex justify-between px-[20px] max-md:flex-wrap sm:hidden">
                         <div class="">
                             <div class="w-full max-md:w-[100%] mx-auto text-center">
-                                <i class="ti-notepad text-[#ffd105] text-5xl"></i>
+                                <i class="fa-regular fa-clipboard text-[#ffd105] text-5xl"></i>
                             </div>
                             <div class="max-sm:pl-0 text-[#ffffff] text-center pt-[50px] pb-[30px] ">
                                 <h2 class="text-[20px] max-[360px]:text-[18px] font-bold ">GET FREE CONSULTATION (OR)

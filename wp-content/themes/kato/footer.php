@@ -24,43 +24,64 @@
                     <div class="mb-[30px] px-[15px] pt-[100px] max-[992px]:pt-[50px]">
                         <h2 class="text-[16px] font-bold text-[#ffffff] mb-[30px]">QUICK LINKS</h2>
                         <div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">About us</p>
-                            </div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">Services</p>
-                            </div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">Advantages</p>
-                            </div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">Testimonials</p>
-                            </div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">Inquiries</p>
-                            </div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">Support</p>
-                            </div>
-                            <div class="text-[#ebebeb] flex mb-[7px]">
-                                <i class="ti-angle-double-right text-[14px] my-auto font-bold"></i>
-                                <p class="text-[14px] pl-[5px] text-[#ebebeb]">Contact us</p>
-                            </div>
-
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">About us</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Services</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Advantages</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Testimonials</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Inquiries</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Inquiries</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Support</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="text-[#ebebeb] flex mb-[7px]">
+                                    <i class="fa-solid fa-angles-right text-[14px] my-auto font-bold"></i>
+                                    <p class="text-[14px] pl-[5px] text-[#ebebeb]">Contact us</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="mb-[30px] px-[15px] pt-[100px] max-[992px]:pt-[50px]">
                         <h2 class="text-[16px] font-bold text-[#ffffff] mb-[30px]">LATEST TWEETS</h2>
-                        <div class=" flex">
-                            <i class="ti-twitter-alt text-[#006bbb] text-[18px] my-auto"></i>
-                            <p class="pl-[5px] text-[14px] text-[#ebebeb]">http://fontawesome.io/cheats</p>
-                        </div>
+                        <a href="">
+                            <div class=" flex">
+                                <i class="fa-brands fa-twitter text-[#006bbb] text-[18px] my-auto"></i>
+                                <p class="pl-[5px] text-[14px] text-[#ebebeb]">http://fontawesome.io/cheats</p>
+                            </div>
+                        </a>
                     </div>
                     <div
                         class="mb-[30px] max-[992px]:pb-[50px] px-[15px] bg-[#121e37] pt-[100px] max-[992px]:pt-[50px] px-[39px]">
@@ -71,15 +92,25 @@
                             <input class=" w-[100%] mb-[20px] py-[8px] px-[10px]" type="email" placeholder="Email"
                                 name="" id="">
                             <button
-                                class=" w-[100%] mb-[20px] py-[6px] px-[47px] border-2 border-[#ffd105] text-[14px] font-bold text-[#172745] bg-[#ffd105] hover:bg-[#121e37]  ">SEND
+                                class=" w-[100%] mb-[20px] py-[6px] px-[47px] border-2 border-[#ffd105] text-[14px] font-bold text-[#172745] bg-[#ffd105] hover:bg-[#121e37]  hover:text-[#ffffff]">SEND
                                 MESSAGE</button>
                         </div>
                         <div class="text-[#ffffff]  grid grid-cols-5">
-                            <i class="hover:text-[#ffd105] ti-facebook"></i>
-                            <i class="hover:text-[#ffd105] ti-twitter-alt"></i>
-                            <i class="hover:text-[#ffd105] ti-linkedin"></i>
-                            <i class="hover:text-[#ffd105] ti-instagram"></i>
-                            <i class="hover:text-[#ffd105] ti-vimeo-alt"></i>
+                            <a href="">
+                                <i class="hover:text-[#ffd105] fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="hover:text-[#ffd105] fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="hover:text-[#ffd105] fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="">
+                                <i class="hover:text-[#ffd105] fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="hover:text-[#ffd105] fa-brands fa-vimeo-v"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -90,11 +121,15 @@
                         <p class=" text-[14px] text-[#ebebeb]">© 2023 Bristol Security. All Rights Reserved.</p>
                     </div>
                     <div class="flex">
-                        <p
-                            class="px-[10px] text-[14px] text-[#ebebeb] border-r-[1px] border-[#ebebeb] hover:text-[#ffd105]">
-                            Privacy Policy
-                        </p>
-                        <p class="px-[10px] text-[14px] text-[#ebebeb] hover:text-[#ffd105]">Terms & Condition</p>
+                        <a href="">
+                            <p
+                                class="px-[10px] text-[14px] text-[#ebebeb] border-r-[1px] border-[#ebebeb] hover:text-[#ffd105]">
+                                Privacy Policy
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="px-[10px] text-[14px] text-[#ebebeb] hover:text-[#ffd105]">Terms & Condition</p>
+                        </a>
                     </div>
 
                 </div>
@@ -103,18 +138,20 @@
                         <p class=" text-[14px] text-[#ebebeb]">© 2023 Bristol Security. All Rights Reserved.</p>
                     </div>
                     <div class="flex justify-center">
-                        <p
-                            class="px-[10px] text-[14px] text-[#ebebeb] border-r-[1px] border-[#ebebeb] hover:text-[#ffd105]">
-                            Privacy Policy
-                        </p>
-                        <p class="px-[10px] text-[14px] text-[#ebebeb] hover:text-[#ffd105]">Terms & Condition</p>
+                        <a href="">
+                            <p
+                                class="px-[10px] text-[14px] text-[#ebebeb] border-r-[1px] border-[#ebebeb] hover:text-[#ffd105]">
+                                Privacy Policy
+                            </p>
+                        </a>
+                        <a href="">
+                            <p class="px-[10px] text-[14px] text-[#ebebeb] hover:text-[#ffd105]">Terms & Condition</p>
+                        </a>
                     </div>
-
                 </div>
             </div>
         </div>
     <?php wp_footer(); ?>
-    
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,

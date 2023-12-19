@@ -20,7 +20,7 @@
                             <div class="flex">
                                 <div>
                                     <i
-                                        class="ti-headphone-alt text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
+                                        class="fa-solid fa-headphones text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
                                 </div>
                                 <div class="pl-[20px] pt-[20px]">
                                     <h3
@@ -34,7 +34,7 @@
                                     <button
                                         class="text-[14px] font-bold text-[#ffffff] hover:text-[#ffd105] mt-[17px] ">
                                         READ MORE
-                                        <i class=" ti-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
+                                        <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
                                     </button>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                             <div class="flex">
                                 <div>
                                     <i
-                                        class="ti-star text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
+                                        class="fa-regular fa-star text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
                                 </div>
                                 <div class="pl-[20px] pt-[20px]">
                                     <h3 class="text-[18px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">BEST
@@ -55,7 +55,7 @@
                                         every of just one drum.</p>
                                     <button class="text-[14px] font-bold text-[#ffffff] mt-[17px] hover:text-[#ffd105]">
                                         READ MORE
-                                        <i class=" ti-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
+                                        <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
                                     </button>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                             <div class="flex">
                                 <div>
                                     <i
-                                        class="ti-close text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
+                                        class="fa-solid fa-xmark text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
                                 </div>
                                 <div class="pl-[20px] pt-[20px]">
                                     <h3 class="text-[18px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">
@@ -77,7 +77,7 @@
 
                                     <button class="text-[14px] font-bold text-[#ffffff] mt-[17px] hover:text-[#ffd105]">
                                         READ MORE
-                                        <i class=" ti-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
+                                        <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
                                     </button>
                                 </div>
                             </div>
