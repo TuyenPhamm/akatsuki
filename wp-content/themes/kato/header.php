@@ -88,38 +88,15 @@
         </div>
         <div class="max-w-[1170px] mx-auto flex justify-between border-1 border-t border-[#ebebeb]   ">
             <div class="pl-[20px] flex w-full max-md:hidden">
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[15px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">HOME</h1>
-                    <i class="fa-solid fa-chevron-down my-auto font-bold pl-[5px]"></i>
-                </div>
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[20px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto whitespace-nowrap">ABOUT US</h1>
-                </div>
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[20px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">SERVICES</h1>
-                    <i class="fa-solid fa-chevron-down my-auto font-bold pl-[5px]"></i>
-                </div>
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[20px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">GALLERY</h1>
-                    <i class="fa-solid fa-chevron-down my-auto font-bold pl-[5px]"></i>
-                </div>
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[20px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">BLOG</h1>
-                    <i class="fa-solid fa-chevron-down my-auto font-bold pl-[5px]"></i>
-                </div>
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[20px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">PAGES</h1>
-                    <i class="fa-solid fa-chevron-down my-auto font-bold pl-[5px]"></i>
-                </div>
-                <div
-                    class="flex mr-[52px] max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[20px] max-[880px]:mr-[10px]  py-[19px]">
-                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto whitespace-nowrap">CONTACT US</h1>
+                <div class="flex justify-between mr-[52px]  max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[15px] max-[880px]:mr-[10px]  py-[19px]">
+                    <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">
+                        <?php
+                            wp_nav_menu( array(
+                                'theme_location' => 'main-menu',
+                                'menu_id'        => 'main-menu',
+                            ) );
+                         ?>
+                    </h1>
                 </div>
             </div>
             <div class="my-auto bg-[#172745] hover:bg-[#ffd105] max-md:hidden w-auto mr-[20px]">
