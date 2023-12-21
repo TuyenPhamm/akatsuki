@@ -65,7 +65,9 @@
   @apply h-[-webkit-fill-available]
 }
 
-
+.menu-item-85  {
+  @apply pl-[40px] hover:text-[#ffdd44] 
+}
 .menu-item-86  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }

@@ -109,9 +109,44 @@
                             CONSULTATION</button>
                     </div>
                     <div>
-                        <i class="fa-solid fa-bars text-[34px] text-[#ffffff] bg-[#ffd105]"></i>
+                        <button id="showDivButton"  class="my-auto">
+                            <i  class="fa-solid fa-bars pl-[10px] text-[30px] text-[#ffd105] "></i>
+                            </button>
+                        <button id="hideDivButton" class="my-auto hidden">
+                            <i class="fa-solid fa-xmark pl-[10px] text-[30px] text-[#ffd105]"></i>
+                        </button>
                     </div>
                 </div>
+                    <div id="hiddenDiv" class=" bg-[#f8f8f8] hidden">
+                        <div class="px-[20px] py-[10px] border-b-[1px] border-[#EA3838]">
+                            <p class="text-[16px]">
+                            <?php
+                                wp_nav_menu( array(
+                                    'theme_location' => 'main-menu',
+                                    'menu_id'        => 'main-menu',
+                                ) );
+                            ?>
+                            </p>
+                        </div>
+                    </div>
             </div>
         </div>
        
+
+        <script>
+        var showButton = document.getElementById('showDivButton');
+        var hideButton = document.getElementById('hideDivButton');
+        var div = document.getElementById('hiddenDiv');
+      
+        showButton.addEventListener('click', function() {
+          div.style.display = 'block';
+          showButton.classList.add('hidden');
+          hideButton.classList.remove('hidden');
+        });
+      
+        hideButton.addEventListener('click', function() {
+          div.style.display = 'none';
+          hideButton.classList.add('hidden');
+          showButton.classList.remove('hidden');
+        });
+      </script>
