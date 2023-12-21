@@ -1,10 +1,11 @@
 <section>
 <div class="grid grid-cols-2 max-[992px]:grid-cols-1 max-w-[1170px] max-lg:pr-[12px] mx-auto">
             <div class="pl-[15px] pr-[100px] max-md:px-[94px] mb-[42px]">
-                <h2 class="text-[30px] font-bold text-[#222222]">WHY CHOOSE US</h2>
-                <p class=" text-[14px] text-[#777777] ">The Love Boat promises something for everyone now to beat every
-                    of one</p>
-                <div class="mt-[42px] max-md:hidden">
+                <h2 class="text-[30px] font-bold text-[#222222]">GIỚI THIỆU</h2>
+                <p class=" text-[14px] text-[#777777] ">Với công nghệ hiện đại, quy trình an ninh chuyên nghiệp cùng đội ngũ chuyên gia
+                     hàng đầu đến từ Nhật Bản, Akatsuki là một trong những công ty tiên phong trong lĩnh vực tư vấn và cung cấp các giải
+                      pháp an ninh tiên tiến đảm bảo an ninh, an toàn tài sản và tính mạng cho Quý khách hàng và Doanh nghiệp.</p>
+                <!-- <div class="mt-[42px] max-md:hidden">
                     <div class="flex pb-[45px]">
                         <div class="my-auto ">
                             <i class="fa-solid fa-crown text-[20px] p-[20px] border-2 hover:bg-[#ffd105] border-[#ffd105]"></i>
@@ -43,7 +44,6 @@
 
                     </div>
                 </div>
-
                 <div class="md:hidden max-md:pt-[80px] flex flex-col justify-center items-center">
                     <div class="pb-8 text-center">
                         <i class="hover:bg-[#ffd105] fa-solid fa-crown text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
@@ -74,13 +74,13 @@
                                 of very best to make the others comfortable.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
 
             </div>
             <div class="relative bg-cover bg-center bg-no-repeat h-[450px] w-[100%] "
-                style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/choose-us.jpg');">
+                style="background-image: url('https://akatsuki.vn/wp-content/uploads/2022/10/Hinh-thay-video-02-01-768x431.png');">
 
                 <div
                     class="grid grid-cols-2 grid-rows-2 w-[340px] h-[340px] max-md:w-[300px] max-md:h-[300px] max-[360px]:w-[250px] max-[360px]:h-[250px] mx-auto mt-[55px]">

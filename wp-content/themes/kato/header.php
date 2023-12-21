@@ -88,7 +88,7 @@
         </div>
         <div class="max-w-[1170px] mx-auto flex justify-between border-1 border-t border-[#ebebeb]   ">
             <div class="pl-[20px] flex w-full max-md:hidden">
-                <div class="flex justify-between mr-[52px]  max-[1200px]:mr-[48px] hover:text-[#ffdd44] max-[1140px]:mr-[30px] max-[950px]:mr-[15px] max-[880px]:mr-[10px]  py-[19px]">
+                <div class="flex justify-between mr-[52px]  max-[1200px]:mr-[48px]  max-[1140px]:mr-[30px] max-[950px]:mr-[15px] max-[880px]:mr-[10px]  py-[19px]">
                     <h1 class="text-[15px] max-lg:text-[13px] max-[900px]:text-[10px] font-bold my-auto">
                         <?php
                             wp_nav_menu( array(

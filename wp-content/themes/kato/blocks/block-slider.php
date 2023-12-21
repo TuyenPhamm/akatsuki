@@ -12,10 +12,10 @@ $the_query = new WP_Query(array(
 <?php if( $the_query->have_posts() ): ?>
 <!-- BLOG -->
 <div class="relative bg-cover bg-center bg-no-repeat h-[820px] w-[100%] "
-            style="background-image: url('https://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.jpg');">
+            style="background-image: url('https://akatsuki.vn/wp-content/uploads/2022/03/anh_Viber_2023-08-09_10-57-37-677.jpg');">
             <div class="absolute inset-0 bg-[#1c1c1c] opacity-75">
                 <div class="max-w-[1170px] h-[100%] px-[15px] mx-auto mb-auto">
-                    <h3 class=" absolute bottom-0 text-[#172745] text-[18px] font-bold bg-[#ffd105] py-[11px] px-[57px] max-sm:text-[14px] max-sm:py-[8px] max-sm:px-[30px] mx-[10px]">CONTACT US FOR INQUIRY</h3>
+                    <h3 class=" absolute bottom-0 text-[#172745] text-[18px] font-bold bg-[#ffd105] py-[11px] px-[57px] max-sm:text-[14px] max-sm:py-[8px] max-sm:px-[30px] mx-[10px]">THÔNG TIN ỨNG VIÊN</h3>
                 </div>
             </div>
             <div class="flex justify-center items-center h-full">
