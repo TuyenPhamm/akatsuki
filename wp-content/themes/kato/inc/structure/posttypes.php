@@ -146,23 +146,24 @@ function kato_advantages() {
         'public' => true,
         'query_var' => 'advantages',
         'rewrite' => array(
-            'slug' => 'advantagess',
+            'slug' => 'advantages',
             'with_front' => false
         ),
-        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'supports' => array('title', 'editor', 'author', 'thumbnail'),
         'menu_position' => 21,
         'labels' => array(
             'name' => 'Advantages',
             'singular_name' => 'advantages',
             'add_new' => 'Add New advantages',
             'add_new_item' => 'Add New advantages',
-            'edit_item' => 'Edit advantages',
+            'edit_item' => 'Edit advantages',   
             'new_item' => 'New advantages',
             'view_item' => 'View advantages',
-            'search_items' => 'Search advantagess',
-            'not_found' => 'No advantagess found',
-            'not_found_in_trash' => 'No advantagess found in Trash',
+            'search_items' => 'Search advantages',
+            'not_found' => 'No advantages found',
+            'not_found_in_trash' => 'No advantages found in Trash',
         ),
+        'custom-fields' => true,
     );
 
     register_post_type('advantages', $args);
@@ -204,7 +205,7 @@ function kato_guard() {
         'public' => true,
         'query_var' => 'guard',
         'rewrite' => array(
-            'slug' => 'guards',
+            'slug' => 'guard',
             'with_front' => false
         ),
         'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
@@ -226,6 +227,35 @@ function kato_guard() {
     register_post_type('guard', $args);
 }
 add_action( 'init', 'kato_guard' );
+
+
+function kato_describe() {
+    $args = array(
+        'public' => true,
+        'query_var' => 'describe',
+        'rewrite' => array(
+            'slug' => 'describe',
+            'with_front' => false
+        ),
+        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'menu_position' => 21,
+        'labels' => array(
+            'name' => 'Describe',
+            'singular_name' => 'describe',
+            'add_new' => 'Add New describe',
+            'add_new_item' => 'Add New describe',
+            'edit_item' => 'Edit describe',
+            'new_item' => 'New describe',
+            'view_item' => 'View describe',
+            'search_items' => 'Search describes',
+            'not_found' => 'No describes found',
+            'not_found_in_trash' => 'No describes found in Trash',
+        ),
+    );
+
+    register_post_type('describe', $args);
+}
+add_action( 'init', 'kato_describe' );
 
 
 function kato_register_cpt_banner() {

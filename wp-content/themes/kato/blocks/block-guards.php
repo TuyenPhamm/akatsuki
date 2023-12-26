@@ -16,19 +16,20 @@
                 ?>
                 <div class=" px-[15px] max-md:mt-[15px] max-md:w-full max-md:h-auto mx-auto ">
                     <a href="<?php the_permalink(); ?>">
-                        <div class="group relative">
+                    <div class="group relative">
                             <div
                                 class="h-0 opacity-0 overflow-hidden transition-all duration-700 group-hover:h-full opacity-80 absolute inset-x-0 bottom-0 bg-gradient-to-t from-red-500 to-white">
-                            </div>
-                            <div class="h-0 opacity-0 overflow-hidden transition-all duration-700 group-hover:h-[auto] opacity-100 absolute inset-x-0 bottom-[0px]"
-                                style="background-color: #333333;">
-                                <div class="p-[18px] ">
-                                    <h2 class="text-[14px] text-[#ffffff]"><?php the_title(); ?></h2>
-                                </div>
                             </div>
                             <div class="w-full h-full hover:opacity-0 group-hover:opacity-100">
                                <img class="max-md:w-full max-md:h-auto" src="<?php echo get_image_featured_path(get_the_ID()); ?>" />
                             </div>
+                            <div class="h-0 opacity-0 overflow-hidden transition-all duration-700 group-hover:h-[auto] opacity-100 absolute inset-x-0 bottom-[0px]"
+                                style="background-color: #333333;">
+                                <div class="p-[18px]">
+                                    <h2 class="text-[14px] text-[#ffffff]"><?php the_title(); ?></h2>
+                                </div>
+                            </div>
+
                         </div>
                     </a>
                     </div> 

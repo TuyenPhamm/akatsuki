@@ -35,27 +35,28 @@
 #main-menu  {
   @apply flex justify-between w-[100%];
 }
-.menu-item-62{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-77{
+  @apply  hover:text-[#ffdd44]
 }
-.menu-item-63{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-78{
+  @apply  hover:text-[#ffdd44]
 }
-.menu-item-64{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-79{
+  @apply  hover:text-[#ffdd44]
 }
-.menu-item-65{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-80{
+  @apply  hover:text-[#ffdd44]
 }
-.menu-item-66{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-81{
+  @apply  hover:text-[#ffdd44]
 }
-.menu-item-67{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-82{
+  @apply  hover:text-[#ffdd44]
 }
-.menu-item-68{
-  @apply pl-[30px] hover:text-[#EA3838]
+.menu-item-83{
+  @apply  hover:text-[#ffdd44]
 }
+
 
 #hiddenDiv #main-menu {
   @apply flex-col

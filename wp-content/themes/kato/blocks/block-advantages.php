@@ -21,28 +21,30 @@
                                 $customPostType-> the_post();
                         ?>
                             <div class="px-[15px] max-lg:pb-[30px]">
-                                <img class="mx-auto w-[100%]"
-                                    src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/adventure-1.jpg"
-                                    alt="">
-                                <div class="flex">
-                                    <div>
-                                        <i class="fa-solid fa-headphones text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
-                                    </div>
-                                    <div class="pl-[20px] pt-[20px]">
-                                        <h3 class="text-[18px] max-lg:text-[16px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">
-                                            <?php the_title(); ?>
-                                        </h3>
-                                        <p class="text-[13px] max-lg:text-[14px] text-[#c0c0c0]">
-                                            <?php the_excerpt(); ?>
-                                        </p>
+                                <a href="<?php the_permalink(); ?>">
+                                    <img class="mx-auto w-[100%]"
+                                        src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/adventure-1.jpg"
+                                        alt="">
+                                    <div class="flex">
+                                        <div>
+                                            <i class="fa-solid fa-headphones text-[30px] py-[30px] px-[20px] font-bold bg-[#ffd105] text-[#172745]"></i>
+                                        </div>
+                                        <div class="pl-[20px] pt-[20px]">
+                                            <h3 class="text-[18px] max-lg:text-[16px] text-[#ffffff] font-bold mb-[7px] hover:text-[#ffd105]">
+                                                <?php the_title(); ?>
+                                            </h3>
+                                            <p class="text-[13px] max-lg:text-[14px] text-[#c0c0c0]">
+                                                <?php the_excerpt(); ?>
+                                            </p>
 
-                                        <button
-                                            class="text-[14px] font-bold text-[#ffffff] hover:text-[#ffd105] mt-[17px] ">
-                                            READ MORE
-                                            <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
-                                        </button>
+                                            <button
+                                                class="text-[14px] font-bold text-[#ffffff] hover:text-[#ffd105] mt-[17px] ">
+                                                READ MORE
+                                                <i class=" fa-solid fa-arrow-right font-bold text-[10.5px] pl-[7px]"></i>
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         <?php
                             }

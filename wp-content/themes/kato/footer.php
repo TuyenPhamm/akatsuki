@@ -46,7 +46,7 @@
                         <a href="">
                             <div class=" flex">
                                 <i class="fa-brands fa-twitter text-[#006bbb] text-[18px] my-auto"></i>
-                                <p class="pl-[5px] text-[14px] text-[#ebebeb]">http://fontawesome.io/cheats</p>
+                                <p class="pl-[5px] text-[14px] text-[#ebebeb] hover:text-[#ffdd44]">http://fontawesome.io/cheats</p>
                             </div>
                         </a>
                     </div>

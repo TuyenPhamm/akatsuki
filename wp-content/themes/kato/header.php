@@ -38,51 +38,49 @@
                         ?>
                     </div>
                     <div class="flex">
-                        <div class="flex max-lg:ml-[40px]">
-                            <i class="fa-regular fa-clock text-[32px] text-[#ffdd44]"></i>
-                            <div class="pl-[18px]">
-                                <p class="text-[16px] font-bold ">WORKING HOURS</p>
-                                <p class="text-[#777777] text-[14px] font-normal">Moday - Sunday: 8.00am to 10.30pm</p>
+                        <?php
+                            $customPostType = new WP_Query(array(
+                                'posts_per_page' => 9,
+                                'post_type' => 'describe'
+                            ));
+                            while($customPostType -> have_posts()) {
+                                $customPostType-> the_post();
+                        ?>
+                            <div class="flex max-lg:ml-[40px] my-auto pl-[20px]">
+                                <img class="h-[40px]" src="<?php echo get_image_featured_path(get_the_ID()); ?>" alt="">
+                                <div class="pl-[18px]">
+                                    <p class="text-[16px] font-bold "><?php the_title(); ?></p>
+                                    <p class="text-[#777777] text-[14px] font-normal">
+                                        <?php the_excerpt(); ?>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="flex ml-[40px]">
-                            <i class="fa-solid fa-mobile-screen-button text-[32px] text-[#ffdd44]"></i>
-                            <div class="pl-[18px]">
-                                <p class="text-[16px] font-bold ">CALL US</p>
-                                <p class="text-[#777777] text-[14px] font-normal">+1-234-678-8900</p>
-                            </div>
-                        </div>
-                        <div class="flex ml-[40px]">
-                            <i class="fa-regular fa-envelope text-[32px] text-[#ffdd44]"></i>
-                            <div class="pl-[18px]">
-                                <p class="text-[16px] font-bold ">MAIL US</p>
-                                <p class="text-[#777777] text-[14px] font-normal">example@support.com</p>
-                            </div>
-                        </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                 </div>
             <div class="sm:hidden mx-auto w-full text-center">
-                <div class="mx-auto">
-                    <i class="fa-regular fa-clock text-3xl text-[#ffdd44]"></i>
-                    <div class="mt-2">
-                        <p class="text-xl font-bold">WORKING HOURS</p>
-                        <p class="text-[#777777] text-base font-normal">Monday - Sunday: 8.00am to 10.30pm</p>
+                <?php
+                    $customPostType = new WP_Query(array(
+                        'posts_per_page' => 9,
+                        'post_type' => 'describe'
+                    ));
+                    while($customPostType -> have_posts()) {
+                    $customPostType-> the_post();
+                ?>
+                    <div class=" my-auto mx-auto pb-[20px]">
+                        <img class="h-[40px] mx-auto" src="<?php echo get_image_featured_path(get_the_ID()); ?>" alt="">
+                        <div class="">
+                            <p class="text-[16px] font-bold "><?php the_title(); ?></p>
+                            <p class="text-[#777777] text-[14px] font-normal">
+                                <?php the_excerpt(); ?>                            
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="mx-auto mt-6">
-                    <i class="fa-solid fa-mobile-screen-button text-3xl text-[#ffdd44]"></i>
-                    <div class="mt-2">
-                        <p class="text-xl font-bold">CALL US</p>
-                        <p class="text-[#777777] text-base font-normal">+1-234-678-8900</p>
-                    </div>
-                </div>
-                <div class="mx-auto mt-6 mb-[20px]">
-                    <i class="fa-regular fa-envelope text-3xl text-[#ffdd44]"></i>
-                    <div class="mt-2">
-                        <p class="text-xl font-bold">MAIL US</p>
-                        <p class="text-[#777777] text-base font-normal">example@support.com</p>
-                    </div>
-                </div>
+                <?php
+                }
+                ?>
             </div>
 
         </div>
@@ -110,10 +108,10 @@
                     </div>
                     <div>
                         <button id="showDivButton"  class="my-auto">
-                            <i  class="fa-solid fa-bars pl-[10px] text-[30px] text-[#ffd105] "></i>
+                            <i  class="my-auto fa-solid fa-bars pl-[10px] text-[30px] text-[#ffd105] "></i>
                             </button>
                         <button id="hideDivButton" class="my-auto hidden">
-                            <i class="fa-solid fa-xmark pl-[10px] text-[30px] text-[#ffd105]"></i>
+                            <i class="my-auto fa-solid fa-xmark pl-[10px] text-[30px] text-[#ffd105]"></i>
                         </button>
                     </div>
                 </div>

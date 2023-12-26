@@ -1,7 +1,7 @@
 <section class="kc-elm kc_row">
 <div class="pt-[135px] pb-[100px] max-w-[1170px] px-[15px] mx-auto">
             <div class="text-center mb-[42px]">
-                <h2 class="text-[30px] font-bold pb-[10px]">LATEST NEWS</h2>
+                <h2 class="text-[30px] font-bold pb-[10px]">NGHIÊN CỨU</h2>
                 <p class="text-[14px] text-[#777777]">The Love Boat promises something for everyone now to beat every of
                     just one</p>
             </div>

@@ -1,20 +1,20 @@
 <section >
 <div class="partner relative bg-cover bg-center bg-no-repeat h-[100px] w-[100%] bg-[#ffd105] "
             style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/pattern-1.png');">
-            <div class="px-[10px] py-[10px] max-w-[1120px] mx-auto owl-carousel owl-theme grid grid-cols-5 gap-[100px] ">
-                <div class="item px-[50px] ">
+            <div class="px-[10px] py-[10px] max-w-[1120px] mx-auto owl-carousel grid grid-cols-5 gap-[100px] ">
+                <div class="item px-[30px] ">
                     <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/2.png" alt="">
                 </div>
-                <div class="item px-[50px] max-sm:hidden">
+                <div class="item px-[30px] ">
                     <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.png" alt="">
                 </div>
-                <div class="item px-[50px] max-md:hidden">
+                <div class="item px-[30px] ">
                     <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/5.png" alt="">
                 </div>
-                <div class="item px-[50px] max-[992px]:hidden">
+                <div class="item px-[30px] ">
                     <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/4.png" alt="">
                 </div>
-                <div class="item px-[50px] max-[992px]:hidden">
+                <div class="item px-[30px] ">
                     <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.png" alt="">
                 </div>
             </div>
@@ -32,6 +32,9 @@
             autoplayHoverPause: true,
             responsive: {
                 0: {
+                    items: 1,
+                },
+                400: {
                     items: 2,
                 },
                 500: {

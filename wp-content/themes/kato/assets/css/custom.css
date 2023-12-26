@@ -1064,10 +1064,6 @@ video {
   padding-left: 47px;
   padding-right: 47px;
 }
-.px-\[50px\] {
-  padding-left: 50px;
-  padding-right: 50px;
-}
 .px-\[57px\] {
   padding-left: 57px;
   padding-right: 57px;
@@ -1632,55 +1628,35 @@ video {
   width: 100%;
   justify-content: space-between;
 }
-.menu-item-62 {
-  padding-left: 30px;
-}
-.menu-item-62:hover {
+.menu-item-77:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
-.menu-item-63 {
-  padding-left: 30px;
-}
-.menu-item-63:hover {
+.menu-item-78:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
-.menu-item-64 {
-  padding-left: 30px;
-}
-.menu-item-64:hover {
+.menu-item-79:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
-.menu-item-65 {
-  padding-left: 30px;
-}
-.menu-item-65:hover {
+.menu-item-80:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
-.menu-item-66 {
-  padding-left: 30px;
-}
-.menu-item-66:hover {
+.menu-item-81:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
-.menu-item-67 {
-  padding-left: 30px;
-}
-.menu-item-67:hover {
+.menu-item-82:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
-.menu-item-68 {
-  padding-left: 30px;
-}
-.menu-item-68:hover {
+.menu-item-83:hover {
   --tw-text-opacity: 1;
-  color: rgb(234 56 56 / var(--tw-text-opacity));
+  color: rgb(255 221 68 / var(--tw-text-opacity));
 }
+
 
 #hiddenDiv #main-menu {
   flex-direction: column;
@@ -2015,10 +1991,6 @@ video {
 
   .max-\[992px\]\:mb-\[40px\] {
     margin-bottom: 40px;
-  }
-
-  .max-\[992px\]\:hidden {
-    display: none;
   }
 
   .max-\[992px\]\:h-\[1250px\] {
