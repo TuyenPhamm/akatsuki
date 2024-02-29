@@ -1,24 +1,24 @@
 <section >
-<div class="partner relative bg-cover bg-center bg-no-repeat h-[100px] w-[100%] bg-[#ffd105] "
-            style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/pattern-1.png');">
-            <div class="px-[10px] py-[10px] max-w-[1120px] mx-auto owl-carousel grid grid-cols-5 gap-[100px] ">
-                <div class="item px-[30px] ">
-                    <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/2.png" alt="">
-                </div>
-                <div class="item px-[30px] ">
-                    <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.png" alt="">
-                </div>
-                <div class="item px-[30px] ">
-                    <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/5.png" alt="">
-                </div>
-                <div class="item px-[30px] ">
-                    <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/4.png" alt="">
-                </div>
-                <div class="item px-[30px] ">
-                    <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.png" alt="">
-                </div>
+    <div class="partner relative bg-cover bg-center bg-no-repeat h-[100px] w-[100%] bg-[#ffd105] "
+        style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/pattern-1.png');">
+        <div class="px-[10px] py-[10px] max-w-[1120px] mx-auto owl-carousel grid grid-cols-5 gap-[100px] ">
+            <div class="item px-[30px] ">
+                <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/2.png" alt="">
+            </div>
+            <div class="item px-[30px] ">
+                <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.png" alt="">
+            </div>
+            <div class="item px-[30px] ">
+                <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/5.png" alt="">
+            </div>
+            <div class="item px-[30px] ">
+                <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/4.png" alt="">
+            </div>
+            <div class="item px-[30px] ">
+                <img class="w-[109px] mx-auto my-auto " src="http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1.png" alt="">
             </div>
         </div>
+    </div>
 </section>
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

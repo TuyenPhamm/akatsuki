@@ -35,28 +35,21 @@
 #main-menu  {
   @apply flex justify-between w-[100%];
 }
-.menu-item-77{
+.menu-item-113{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-78{
+.menu-item-114{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-79{
+.menu-item-115{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-80{
+.menu-item-116{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-81{
+.menu-item-117{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-82{
-  @apply  hover:text-[#ffdd44]
-}
-.menu-item-83{
-  @apply  hover:text-[#ffdd44]
-}
-
 
 #hiddenDiv #main-menu {
   @apply flex-col
@@ -66,12 +59,6 @@
   @apply h-[-webkit-fill-available]
 }
 
-.menu-item-85  {
-  @apply pl-[40px] hover:text-[#ffdd44] 
-}
-.menu-item-86  {
-  @apply pl-[40px] hover:text-[#ffdd44] 
-}
 .menu-item-87  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
@@ -87,6 +74,7 @@
 .menu-item-91  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
+
 
 
 .widget_media_image{

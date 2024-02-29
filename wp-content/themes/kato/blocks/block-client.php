@@ -1,7 +1,7 @@
 <!-- TESTIMONY -->
-<div class="pt-[135px] pb-[100px] max-w-[1170px] mx-auto">
+<div class="pt-[100px] pb-[80px] max-[769px]:pt-[40px] max-[769px]:pb-[40px] max-sm:pt-[15px] max-sm:pb-[15px] max-w-[1170px] mx-auto">
             <div class="px-[20px]">
-                <h2 class="mb-[65px] text-[30px] font-bold">OUR CLIENTS SAYS</h2>
+                <h2 class="mb-[65px] max-[769px]:mb-[30px] text-[30px] font-bold">OUR CLIENTS SAYS</h2>
             </div>
             <div class=" grid grid-cols-3 px-[30px] max-lg:grid-cols-2 max-md:grid-cols-1">
                 <div class="pr-[70px] max-sm:pr-0">

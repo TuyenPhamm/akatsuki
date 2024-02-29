@@ -19,7 +19,7 @@ $the_query = new WP_Query(array(
                 </div>
             </div>
             <div class="flex justify-center items-center h-full">
-                <div class=" absolute text-white">
+                <div class=" absolute text-white px-[10px]">
                     <p class="text-[20px] mb-[20px]">Securing is our best part of Life</p>
                     <h1
                         class="text-[40px] max-lg:text-[35px] max-md:text-[25px] max-sm:text-[20px] font-bold mb-[10px]">

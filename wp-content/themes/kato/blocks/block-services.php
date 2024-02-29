@@ -1,12 +1,12 @@
 
 <section class="services">
-<div class="pt-[150px] max-w-[1140px] mx-auto">
-            <div class="text-center mb-[92px]">
+<div class="pt-[50px] max-w-[1140px] mx-auto">
+            <div class="text-center mb-[92px] max-md:mb-[50px]">
                 <h2 class="text-[30px] leading-[42px] font-bold">DỊCH VỤ</h2>
                 <p class="text-[14px] text-[#777777] leading-[25px]">The Love Boat promises something for everyone now
                     to beat every of just one</p>
             </div>
-            <div class="grid grid-cols-3 max-lg:grid-cols-2 max-lg:grid-rows-2 max-md:grid-cols-1 max-md:grid-rows-3 relative bg-cover bg-center bg-no-repeat h-auto w-[100%] "
+            <div class="grid grid-cols-3 max-lg:grid-cols-2  max-md:grid-cols-1  relative bg-cover bg-center bg-no-repeat h-auto w-[100%] "
                 style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/dotted-map.png');">
                 <div class="px-[15px] max-lg:order-1">
                     <?php
@@ -24,7 +24,7 @@
                                         <h3 class="text-[16px] leading-[24px] font-bold text-[#222222] mb-[10px]">
                                             <?php the_title(); ?>
                                         </h3>
-                                        <p class=" text-[13px] text-[#777777]">
+                                        <p class=" text-[13px] text-[#777777] line-clamp-2">
                                             <?php the_excerpt(); ?>
                                         </p>
                                     </div>
@@ -38,12 +38,12 @@
                         <div class="md:hidden flex flex-col justify-center items-center">
                             <a href="<?php the_permalink(); ?>">
                                 <div class="pb-8 text-center">
-                                    <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                                    <i class="hover:bg-[#ffd105] fa-solid fa-shield text-2xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                                     <div class="mt-[35px]">
-                                        <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">
+                                        <h3 class="text-1xl leading-6 font-bold text-[#222222] mb-2">
                                             <?php the_title(); ?>
                                         </h3>
-                                        <p class="text-base text-[#777777]">
+                                        <p class="text-base text-[#777777] line-clamp-2">
                                             <?php the_excerpt(); ?>
                                         </p>
                                     </div>
@@ -54,8 +54,8 @@
                         }
                     ?>
                 </div>
-                <div class="px-[15px] max-lg:col-span-2 max-md:col-span-1 max-lg:order-3 max-lg:mx-auto">
-                    <img class="max-h-[578px]"
+                <div class="px-[15px] max-lg:col-span-2  max-lg:hidden ">
+                    <img class="h-full"
                         src="https://akatsuki.vn/wp-content/uploads/2022/10/Hinh-tuyen-dung-end-01-1-768x914.png"
                         alt="">
                 </div>
@@ -79,7 +79,7 @@
                                         <h3 class="text-[16px] leading-[24px] font-bold text-[#222222] mb-[10px]">
                                             <?php the_title(); ?>
                                         </h3>
-                                        <p class=" text-[13px] text-[#777777]">
+                                        <p class=" text-[13px] text-[#777777] line-clamp-2">
                                             <?php the_excerpt(); ?>
                                         </p>
                                     </div>
@@ -89,12 +89,12 @@
                         <div class="md:hidden flex flex-col justify-center items-center">
                             <a href="<?php the_permalink(); ?>">
                                 <div class="pb-8 text-center">
-                                    <i class="hover:bg-[#ffd105] fa-solid fa-shield text-4xl p-5 border-2 border-[#ffd105] mx-auto"></i>
+                                    <i class="hover:bg-[#ffd105] fa-solid fa-shield text-2xl p-5 border-2 border-[#ffd105] mx-auto"></i>
                                     <div class="mt-[35px]">
-                                        <h3 class="text-2xl leading-6 font-bold text-[#222222] mb-2">
+                                        <h3 class="text-1xl leading-6 font-bold text-[#222222] mb-2">
                                             <?php the_title(); ?>
                                         </h3>
-                                        <p class="text-base text-[#777777]">
+                                        <p class="text-base text-[#777777] line-clamp-2">
                                             <?php the_excerpt(); ?>
                                         </p>
                                     </div>

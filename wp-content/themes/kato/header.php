@@ -31,8 +31,8 @@
     <?php wp_head(); ?>
 </head>
 <div class=" lg:flex lg:justify-between  h-auto max-w-[1170px] py-[26[px] mx-auto px-[15px] ">
-                <div class="max-sm:hidden w-full flex justify-between max-lg:flex-wrap  max-lg:justify-center ml-[40px] my-auto max-lg:mb-[20px] max-lg:w-full max-lg:mx-auto">
-                    <div class="max-lg:mx-auto">
+                <div class="max-md:hidden w-full flex justify-between max-lg:flex-wrap  max-lg:justify-center ml-[40px] my-auto max-lg:mb-[20px] max-lg:w-full max-lg:mx-auto">
+                    <div class="max-lg:mx-auto w-[100px]">
                         <?php
                             dynamic_sidebar('logo');
                         ?>
@@ -46,11 +46,11 @@
                             while($customPostType -> have_posts()) {
                                 $customPostType-> the_post();
                         ?>
-                            <div class="flex max-lg:ml-[40px] my-auto pl-[20px]">
+                            <div class="flex max-lg:ml-[40px] my-auto pl-[20px] max-[880px]:pl-[5px] ">
                                 <img class="h-[40px]" src="<?php echo get_image_featured_path(get_the_ID()); ?>" alt="">
                                 <div class="pl-[18px]">
-                                    <p class="text-[16px] font-bold "><?php the_title(); ?></p>
-                                    <p class="text-[#777777] text-[14px] font-normal">
+                                    <p class="text-[16px] max-[880px]:text-[14px] font-bold "><?php the_title(); ?></p>
+                                    <p class="text-[#777777] text-[14px] max-[880px]:text-[12px] font-normal">
                                         <?php the_excerpt(); ?>
                                     </p>
                                 </div>
@@ -60,7 +60,7 @@
                         ?>
                     </div>
                 </div>
-            <div class="sm:hidden mx-auto w-full text-center">
+            <div class="hidden mx-auto w-full text-center">
                 <?php
                     $customPostType = new WP_Query(array(
                         'posts_per_page' => 9,
@@ -101,12 +101,13 @@
                 <button class="font-bold text-[14px] text-[#FFF] py-[20px] px-[47px] max-[900px]:px-[30px] leading-[24px] whitespace-nowrap ">GET FREE CONSULTATION</button>
             </div>
             <div class="md:hidden w-[100%] px-[12px]">
-                <div class="mb-[20px] flex justify-between ">
-                    <div class="my-auto bg-[#172745] hover:bg-[#ffd105]">
-                        <button class="font-bold text-[14px] text-[#FFF] py-[20px] px-[47px] leading-[24px]">GET FREE
-                            CONSULTATION</button>
+                <div class=" flex justify-between ">
+                    <div class="w-[70px]">
+                        <?php
+                            dynamic_sidebar('logo');
+                        ?>
                     </div>
-                    <div>
+                    <div class="my-auto">
                         <button id="showDivButton"  class="my-auto">
                             <i  class="my-auto fa-solid fa-bars pl-[10px] text-[30px] text-[#ffd105] "></i>
                             </button>
@@ -117,7 +118,7 @@
                 </div>
                     <div id="hiddenDiv" class=" bg-[#f8f8f8] hidden">
                         <div class="px-[20px] py-[10px] border-b-[1px] border-[#EA3838]">
-                            <p class="text-[16px]">
+                            <p class="text-[20px]">
                             <?php
                                 wp_nav_menu( array(
                                     'theme_location' => 'main-menu',

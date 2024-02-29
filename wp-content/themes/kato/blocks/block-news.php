@@ -3,12 +3,13 @@
             <div class="text-center mb-[42px]">
                 <h2 class="text-[30px] font-bold pb-[10px]">NGHIÊN CỨU</h2>
                 <p class="text-[14px] text-[#777777]">The Love Boat promises something for everyone now to beat every of
-                    just one</p>
+                    just one
+                </p>
             </div>
             <div class="grid grid-cols-3 max-[992px]:grid-cols-2 max-md:grid-cols-1">
                 <?php
                             $customPostType = new WP_Query(array(
-                                'posts_per_page' => 9,
+                                'posts_per_page' => 12,
                                 'post_type' => 'new'
                             ));
                             while($customPostType -> have_posts()) {

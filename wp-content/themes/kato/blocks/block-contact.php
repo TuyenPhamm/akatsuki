@@ -3,6 +3,7 @@
                 <div class="flex justify-between my-auto w-[100%] ">
                     <p class="text-[13px] leading-[22px]">Họ và tên</p>
                     <i class="text-[#ffdd44] fa-regular fa-user"></i>
+                    <!-- <input type="text" placeholder="abc"> -->
                 </div>
             </div>
             <div class="px-[25px] border-b-2 border-[#ebebeb] flex  mb-[35px] h-[100%] ">

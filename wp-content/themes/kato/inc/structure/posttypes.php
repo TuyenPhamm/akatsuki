@@ -141,6 +141,34 @@ function kato_service_right() {
 }
 add_action( 'init', 'kato_service_right' );
 
+function kato_service_page() {
+    $args = array(
+        'public' => true,
+        'query_var' => 'service_page',
+        'rewrite' => array(
+            'slug' => 'service_page',
+            'with_front' => false
+        ),
+        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'menu_position' => 21,
+        'labels' => array(
+            'name' => 'Service_page',
+            'singular_name' => 'service_page',
+            'add_new' => 'Add New service_page',
+            'add_new_item' => 'Add New service_page',
+            'edit_item' => 'Edit service_page',
+            'new_item' => 'New service_page',
+            'view_item' => 'View service_page',
+            'search_items' => 'Search service_page',
+            'not_found' => 'No service_pages found',
+            'not_found_in_trash' => 'No service_page found in Trash',
+        ),
+    );
+
+    register_post_type('service_page', $args);
+}
+add_action( 'init', 'kato_service_page' );
+
 function kato_advantages() {
     $args = array(
         'public' => true,
@@ -198,6 +226,35 @@ function kato_new() {
     register_post_type('new', $args);
 }
 add_action( 'init', 'kato_new' );
+
+
+function kato_blog() {
+    $args = array(
+        'public' => true,
+        'query_var' => 'blog',
+        'rewrite' => array(
+            'slug' => 'blogs',
+            'with_front' => false
+        ),
+        'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        'menu_position' => 21,
+        'labels' => array(
+            'name' => 'Blog',
+            'singular_name' => 'blog',
+            'add_new' => 'Add New blog',
+            'add_new_item' => 'Add New blog',
+            'edit_item' => 'Edit blog',
+            'new_item' => 'New blog',
+            'view_item' => 'View blog',
+            'search_items' => 'Search blogs',
+            'not_found' => 'No blogs found',
+            'not_found_in_trash' => 'No blogs found in Trash',
+        ),
+    );
+
+    register_post_type('blog', $args);
+}
+add_action( 'init', 'kato_blog' );
 
 
 function kato_guard() {

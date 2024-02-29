@@ -1,11 +1,10 @@
 
 
 <section class="field">
-<div class="relative bg-cover bg-center bg-no-repeat h-[815.750px] max-lg:h-[1300px] max-[992px]:h-[1250px] max-sm:h-[2000px] max-[540px]:h-[1900px] max-[400px]:h-[1700px] w-[100%] "
-            style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/1-1.jpg');">
-            <div class="absolute inset-0 bg-[#172745f7] opacity-100"></div>
-            <div class="pt-[140px] pb-[100px]">
-                <div class="absolute w-[100%]">
+<div class=" bg-cover bg-center bg-no-repeat bg-[#172745f7] w-[100%] "  >
+            <div class=" inset-0 bg-[#172745f7] opacity-100"></div>
+            <div class="pt-[100px] pb-[80px] max-[769px]:pt-[40px] max-[769px]:pb-[40px] max-sm:pt-[15px] max-sm:pb-[15px]">
+                <div class=" w-[100%]">
                     <div class="text-[#ffffff]  text-center w-[100%] mb-[42px]">
                         <h2 class="text-[30px] font-bold leading-[42px] pb-[10px]">OUR ADVANTAGES</h2>
                         <p class="text-[14px] leading-[25px]">The Love Boat promises something for everyone now to beat

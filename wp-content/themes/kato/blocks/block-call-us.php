@@ -1,8 +1,7 @@
 <section >
-<div class="relative bg-cover bg-center bg-no-repeat h-auto w-[100%] "
-            style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/2-1.jpg');">
-            <div class="absolute inset-0 bg-[#172745f7] h-auto opacity-100"></div>
-
+    <div class="relative bg-cover bg-center bg-no-repeat h-auto w-[100%] "
+        style="background-image: url('http://www.wp1.themexlab.com/newwp/bristol/wp-content/uploads/2017/01/2-1.jpg');">
+        <div class="absolute inset-0 bg-[#172745f7] h-auto opacity-100"></div>
             <div class="pt-[100px] pb-[150px] max-md:pb-[200px] max-sm:pb-[400px]">
                 <div class=" absolute flex w-[100%]">
                     <div class="w-[1200px] mx-auto flex justify-between px-[20px] max-md:flex-wrap max-sm:hidden">
@@ -14,11 +13,8 @@
                                 <h2 class="text-[20px] font-bold ">GET FREE CONSULTATION (OR) CALL US: +1-234-678-8900
                                 </h2>
                                 <p class="text-[14px] mt-[10px]">The Love Boat promises something for everyone now to
-                                    beat every
-                                    of
-                                    just
-                                    one
-                                    the others comfortable.</p>
+                                    beat every of just one the others comfortable.
+                                </p>
                             </div>
                         </div>
                         <div class="ml-auto max-md:pt-[20px]">
@@ -28,7 +24,6 @@
                             </button>
                         </div>
                     </div>
-
                     <div class="w-[1200px] mx-auto flex justify-between px-[20px] max-md:flex-wrap sm:hidden">
                         <div class="">
                             <div class="w-full max-md:w-[100%] mx-auto text-center">
@@ -39,11 +34,8 @@
                                     CALL US: +1-234-678-8900
                                 </h2>
                                 <p class="text-[14px] mt-[10px]">The Love Boat promises something for everyone now to
-                                    beat every
-                                    of
-                                    just
-                                    one
-                                    the others comfortable.</p>
+                                    beat every of just one the others comfortable.
+                                </p>
                             </div>
                         </div>
                         <div class="mx-auto max-md:pt-[20px]">
@@ -55,6 +47,5 @@
                     </div>
                 </div>
             </div>
-
         </div>
 </section>
