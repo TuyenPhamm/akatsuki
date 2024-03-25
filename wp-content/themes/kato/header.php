@@ -49,7 +49,7 @@
                             <div class="flex max-lg:ml-[40px] my-auto pl-[20px] max-[880px]:pl-[5px] ">
                                 <img class="h-[40px]" src="<?php echo get_image_featured_path(get_the_ID()); ?>" alt="">
                                 <div class="pl-[18px]">
-                                    <p class="text-[16px] max-[880px]:text-[14px] font-bold "><?php the_title(); ?></p>
+                                    <p class="text-[16px] max-[880px]:text-[14px] font-bold hover:text-[#1c1c1c]"><?php the_title(); ?></p>
                                     <p class="text-[#777777] text-[14px] max-[880px]:text-[12px] font-normal">
                                         <?php the_excerpt(); ?>
                                     </p>

@@ -35,19 +35,19 @@
 #main-menu  {
   @apply flex justify-between w-[100%];
 }
-.menu-item-113{
+.menu-item-43{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-114{
+.menu-item-44{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-115{
+.menu-item-45{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-116{
+.menu-item-46{
   @apply  hover:text-[#ffdd44]
 }
-.menu-item-117{
+.menu-item-47{
   @apply  hover:text-[#ffdd44]
 }
 
@@ -59,19 +59,19 @@
   @apply h-[-webkit-fill-available]
 }
 
-.menu-item-87  {
+.menu-item-38  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
-.menu-item-88  {
+.menu-item-39  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
-.menu-item-89  {
+.menu-item-40  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
-.menu-item-90  {
+.menu-item-41  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
-.menu-item-91  {
+.menu-item-42  {
   @apply pl-[40px] hover:text-[#ffdd44] 
 }
 

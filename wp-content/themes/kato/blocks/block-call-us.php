@@ -29,7 +29,7 @@
                             <div class="w-full max-md:w-[100%] mx-auto text-center">
                                 <i class="fa-regular fa-clipboard text-[#ffd105] text-5xl"></i>
                             </div>
-                            <div class="max-sm:pl-0 text-[#ffffff] text-center pt-[50px] pb-[30px] ">
+                            <div class="max-sm:pl-0 text-[#ffffff] text-center pt-[50px] pb-[30px]">
                                 <h2 class="text-[20px] max-[360px]:text-[18px] font-bold ">GET FREE CONSULTATION (OR)
                                     CALL US: +1-234-678-8900
                                 </h2>
